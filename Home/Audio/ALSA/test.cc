@@ -1,5 +1,5 @@
 //#include <errno.h>
-
+//copy from net full source not own by me this is sample
 
 #include <errno.h>
 #include <stdio.h>
