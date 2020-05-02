@@ -18,9 +18,14 @@ int setStereo()|
 int main(int argc, char *argv[]) {
 	
 	initParam();
-	setStereo();
+	setCaptureStereo();
+	setBestCaptureRatio(48*1000);
 	
-	
+	printf("Start Capture\r\n");
+	capture(4000);
+	printf("Write to File\r\n");;
+	write("sample.wav");
+	printf("Done\r\n");
 	return 0;
 
 }
