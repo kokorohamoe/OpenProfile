@@ -8,7 +8,7 @@ int main(int argc,const char*argv[]){
 		printf("input\n");
 		scanf("%s%d",buffer,&v);
 		if(strcmp(buffer,"print")==0)
-			printf( "public class base{\n"
+			fprintf(stderr, "public class base{\n"
    				"public static void main(String[] args){\n"
         			"int i = %d;\n"
         			"System.out.println(i);}}\n",v);
