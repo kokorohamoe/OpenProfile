@@ -4,7 +4,7 @@ Hello: class/main.class class/console.class
 
 
 class/main.class:main.java
-	javac main.java
+	javac -d class main.java
 
 class/console.class:console.java
-	javac console.java
+	javac -d class console.java
