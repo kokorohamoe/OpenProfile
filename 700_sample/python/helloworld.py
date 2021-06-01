@@ -1,4 +1,4 @@
-file = open('helloworld', 'r')
+file = open('helloworld.py', 'r')
 no = None
 while no != file.tell():
     no = file.tell()
