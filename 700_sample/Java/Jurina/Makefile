@@ -1,10 +1,10 @@
 
-Hello: main.class console.class
-	java main
+Hello: class/main.class class/console.class
+	java --class-path=class main
 
 
-main.class:main.java
+class/main.class:main.java
 	javac main.java
 
-console.class:console.java
+class/console.class:console.java
 	javac console.java
