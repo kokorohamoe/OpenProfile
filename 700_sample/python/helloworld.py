@@ -1,6 +1,6 @@
 file = open('helloworld.py', 'r')
-no = None
-while no != file.tell():
-    no = file.tell()
-    print file.readline()
+line = file.readline
+while line:
+    print line
+    line = file.readline()
 
